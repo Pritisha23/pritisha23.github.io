@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* BODY */
+body {
+    background: linear-gradient(135deg, #f2fbf6, #e6f7ef);
+    color: #2f4f3f;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(to right, #b7efd2, #d7f5e6);
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #3f6b56;
+}
+
+/* MAIN SECTION */
+.product-section {
+    display: flex;
+    gap: 60px;
+    padding: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* LEFT CARD */
+.content-card {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(10px);
+    padding: 45px;
+    border-radius: 20px;
+    max-width: 520px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+}
+
+.tag {
+    background: #e3f7ed;
+    color: #2f7a5c;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 18px;
+}
+
+.content-card h2 {
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.description {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    color: #456b5a;
+}
+
+/* POINTS */
+.points {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin-bottom: 35px;
+}
+
+.point {
+    background: #ffffff;
+    padding: 12px 16px;
+    border-radius: 12px;
+    font-size: 14px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.05);
+}
+
+/* BUTTONS */
+.actions {
+    display: flex;
+    gap: 16px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.primary {
+    background: #4caf8d;
+    color: white;
+}
+
+.primary:hover {
+    background: #3e9f78;
+}
+
+.secondary {
+    border: 2px solid #4caf8d;
+    color: #4caf8d;
+}
+
+.secondary:hover {
+    background: #4caf8d;
+    color: white;
+}
+
+/* IMAGE CARD */
+.image-card {
+    background: white;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.12);
+}
+
+.image-card img {
+    width: 260px;
+    display: block;
+}
